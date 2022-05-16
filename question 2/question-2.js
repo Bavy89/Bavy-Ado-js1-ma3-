@@ -1,9 +1,7 @@
 // Question 2
 
 const APIkey = "5daa735e5ac94639a7dfa778f35105a8";
-
 const url = `https://api.rawg.io/api/games?dates=2019-01-01,2019-12-31&ordering=-rating&key=${APIkey}`;
-
 const resultContainer = document.querySelector(".results");
 
 async function getGames() {
